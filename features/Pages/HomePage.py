@@ -17,6 +17,7 @@ class homepage(CommonMethod):
 
 
     def verifyHome(self):
+        print("hello")
         return self.checkDisplay(self.home_link)
 
     def verifyLogout(self):
