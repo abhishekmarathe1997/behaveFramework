@@ -4,7 +4,7 @@ Feature: login
 Background:
   Given user should be on login page
 
-  @valid @smoke
+  @valid @smoke @regression
 Scenario: valid login
 When user enter the valid credentials
 Then user should navigated to home page
